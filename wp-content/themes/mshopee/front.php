@@ -12,6 +12,9 @@ get_header();
 			<?php if( get_field('banner_content') ): ?>
 				<p><?php the_field('banner_content'); ?></p>
 			<?php endif; ?>
+			<?php if( get_field('banner_content') ): ?>
+				<p><?php the_field('banner_content'); ?></p>
+			<?php endif; ?>
 			<?php if( get_field('button_text') and get_field('button_link') ): ?>
 				<a href="<?php the_field('button_link'); ?>" class="get-app-btn"><?php the_field('button_text'); ?></a>
 			<?php endif; ?>
